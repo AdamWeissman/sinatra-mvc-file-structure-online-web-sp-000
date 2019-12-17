@@ -1,5 +1,4 @@
 class Dog 
-
   attr_accessor :name, :breed, :age 
   
   @@all = []
@@ -14,6 +13,4 @@ class Dog
   def self.all 
     @@all
   end
-
-
 end
